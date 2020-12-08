@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NewsAPI",
+    "\\NewsAPI\\Controllers",
+    "\\newsclient",
+    "\\newsclient\\src",
+    "\\newsclient\\src\\app",
+    "\\newsclient\\src\\app\\home",
+    "\\newsclient\\src\\app\\nav",
+    "\\newsclient\\src\\app\\search",
+    "\\newsclient\\src\\app\\_services",
+    "\\NewsTests"
+  ],
+  "SelectedNode": "\\newsclient\\src\\app\\_services\\story.service.spec.ts",
+  "PreviewInSolutionExplorer": false
+}

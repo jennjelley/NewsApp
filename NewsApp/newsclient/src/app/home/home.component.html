@@ -1,0 +1,21 @@
+<div *ngFor="let story of stories">
+  <a *ngIf="story.url != null; else elseBlock" href="{{ story.url }}">{{ story.title }}</a>
+  <ng-template #elseBlock>{{ story.title }}</ng-template>
+  <br />by {{ story.by }}
+  <hr />
+</div>
+
+<nav>
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" (click)="getPage(1)">1</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(2)">2</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(3)">3</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(4)">4</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(5)">5</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(6)">6</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(7)">7</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(8)">8</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(9)">9</a></li>
+    <li class="page-item"><a class="page-link" (click)="getPage(10)">10</a></li>
+  </ul>
+</nav>
